@@ -113,22 +113,22 @@ A monte carlo analysis was performed on 2 sentiment analysis data frames (All Se
 
 |![Model1 Regression All Sentiments](./images/Model1_All.png "Model 1 Lasso Regression") | ![Model1 Regression All Sentiments LR](./images/Model2_All.png "Model 1 Lasso Regression using LogisticRegression")|
 |:---:|:---:|
-| Model 1 Lasso Regression | Model 1 Lasso Regression using LogisticRegression |
+| Model 1 (All Sentiments): Daily Returns and Textblob Lemmatized | Model 2 (All Sentiments): Daily Returns and Textblob Lemmatized |
 
 |![Model1 Regression All Sentiments gif](./images/Model1_All_Iterations.gif "Model 1 Lasso Regression") | ![Model1 Regression All Sentiments LR gif](./images/Model2_All_Iterations.gif "Model 1 Lasso Regression using LogisticRegression")|
 |:---:|:---:|
-| Model 1 Lasso Regression ScatterPlot | Model 1 Lasso Regression using LogisticRegression ScatterPlot |
+| Model 1 (All Sentiments): Winner Feature per Iteration | Model 2 (All Sentiments): Winner Feature per Iteration |
 
 
 ### Model 2 Monte Carlo Results - Sentiments by News Source:
 
 |![Model2 Regression News Source](./images/Model1_NewsSource.png "Model 2 Lasso Regression") | ![Model2 Regression News Source LR](./images/Model2_NewsSource.png "Model 2 Lasso Regression using LogisticRegression")|
 |:---:|:---:|
-| Model 2 Lasso Regression | Model 2 Lasso Regression using LogisticRegression |
+| Model 1 (Sentiments by News Source): Daily Returns and Motley Textblob Stemmed | Model 2 (Sentiments by News Source): Daily Returns and Zacks Stocknews |
 
 |![Model2 Regression News Source gif](./images/Model1_News_Iterations.gif "Model 2 Lasso Regression") | ![Model2 Regression News Source LR gif](./images/Model2_News_Iterations.gif "Model 2 Lasso Regression using LogisticRegression")|
 |:---:|:---:|
-| Model 2 Lasso Regression ScatterPlot | Model 2 Lasso Regression using LogisticRegression ScatterPlot |
+| Model 1 (Sentiments by News Source): Winner Feature per Iteration | Model 2 (Sentiments by News Source): Winner Feature per Iteration |
 
 ## Conclusion
 
