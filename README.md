@@ -26,11 +26,11 @@ Analyze stock data in correlation to sentiments from different stock news source
     - Initial TSLA articles were pulled from StockNewsAPI. However, StockNewsApi does not return full articles, only snippets, headlines, URLs and its own sentiment analysis scores. A custom function was created to take the news URL from StockNewsAPI, pass it to BreakingAPI, and pull the full text of the article. 
 
 |![StockNewsAPI Dataframe](./images/df_sna1.png "DataFrame created from data downloaded from StockNewsApi")|
-|:---:|
+|---|
 |DataFrame created from data downloaded from StockNewsApi|
 
 |![w BreakingAPI DataFrame](./images/df_ba1.png "Modified Dataframe after downloading full text from breakingapi.com")|
-|:---:|
+|---|
 |Modified Dataframe after downloading full text from breakingapi.com|
 
 
@@ -67,27 +67,27 @@ After processing the Sentiments Analysis, we were left with a "Bag of Words" fro
 We created dataframes containing TSLA stock data, sentiment analysis from stocknewsapi and CSV files created by our custom code and joined them to create a final dataframe that was used for regression analysis.
 
 |![StockNewsAPI Dataframe 2](./images/df_sna2.png "Stocknewsapi sentiment translated to a numeric value")|
-|:---:|
+|---|
 |Stocknewsapi sentiment translated to a numeric value|
 
 |![Sentiments Dataframe 1](./images/df_senti1.png "Added sentiments from our custom code to the previous dataframe")|
-|:---:|
+|---|
 |Added sentiments from our custom code to the previous dataframe|
 
 |![Sentiments Dataframe 2](./images/df_senti2.png "Cleaned-up dataframe containing only the columns we needed")|
-|:---:|
+|---|
 |Cleaned-up dataframe containing only the columns we needed|
 
 |![Dataframe 1 for Regression](./images/df_reg1.png "Merged Tesla stock closing prices for the respective dates (DF1 for Regression Analysis)")|
-|:---:|
+|---|
 |Merged Tesla stock closing prices for the respective dates (DataFrame 1 used for Regression Analysis)|
 
 |![Sentiments Dataframe 3](./images/df_senti3.png "Dataframe grouped by date and source")|
-|:---:|
+|---|
 |Dataframe grouped by date and source|
 
 |![Dataframe 2 for Regression](./images/df_reg2.png "Source_name values transposed to columns (DF2 for Regression Analysis)")|
-|:---:|
+|---|
 |Source_name values transposed to columns (DataFrame 2 used for Regression Analysis)|
 
 
